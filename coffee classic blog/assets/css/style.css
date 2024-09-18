@@ -1,0 +1,186 @@
+.bg-success{
+   background-color:#4d8b55!important;
+}
+.text-success{
+    color: #4d8b55!important;
+}
+.btn-success{
+    background-color: #4d8b55!important;
+}
+
+body{
+    font-family: 'Poppins'!important;
+}
+.navbar-collapse{
+    flex-grow: 0!important;
+   
+}
+ul li{
+    list-style: none!important;
+}
+a{
+    text-decoration: none!important;
+}
+nav ul li .dropdown{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    top:100px;
+    cursor: pointer;
+    /* right: 600px; */
+}
+nav ul li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+    top:80px;
+ 
+}
+.collapse ul li a .icon:hover{
+    transform: rotate(270deg);
+}
+.dropdown ul li:hover{
+    background-color: #4d8b55;
+    color:white!important;
+}
+nav ul li:hover{
+   color: #060606!important;
+}
+.collapse ul li a:hover{
+    color: #4d8b55!important;   
+}
+.collapse ul li i:hover{
+    color: white;
+}
+/* footer start */
+.footer{
+    background-image: url('../image/footer-bg.jpg');
+    padding: 100px 0 10px 0;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.568);
+    background-blend-mode: darken;
+}
+.footer .footer-logo i:hover{
+    color: white!important;
+    transition: 0.5s;
+}
+.footer .footer-content h3:hover{
+    color: #4d8b55!important;
+    transition: 0.5s;
+}
+/* footer end */
+/* button start */
+button {
+  
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+button{
+    background: linear-gradient( to bottom, #4d8b55 50%,     white 50% );
+    background-size: 100% 200%;
+    background-position: left top;
+
+    &:hover {
+        background-position: right bottom;
+        color: white;
+    }
+}
+button:hover{
+    color: black !important;
+}
+#btn-dark{
+    background: linear-gradient( to bottom, black 50%,     white 50% );
+    background-size: 100% 200%;
+    background-position: left top;
+    color: white;
+    cursor: pointer;
+
+   
+   
+
+    &:hover {
+        background-position: right bottom; 
+         background-color: white !important; 
+         color: black !important; 
+        transition: all ease .3s !important;
+        cursor: pointer;
+
+    }
+}
+/* button end */
+@media (min-width:992px){
+    .product .list{
+        background-size: contain;
+    }
+}
+@media screen and (max-width: 992px){
+    .book::before{
+        width: 0%;
+        height: 0%;
+    }
+}
+/* cart start */
+.cart{
+    background-image: url('../image/inner_header_02.jpg');
+    background-color: rgba(0, 0, 0, 0.663);
+    background-blend-mode: darken;
+    padding: 200px 0 150px 0;
+    background-size: cover;
+}
+.cart p{
+    padding: 0px 20px 0px 20px;
+}
+/* cart end */
+/* classic blog start */
+.classic-image{
+    overflow: hidden;
+    /* padding-top: 100px; */
+}
+.classic-image:hover img{
+    transform: scale(1.1);
+    transition: 0.4s;
+    overflow: hidden;
+}
+.classic .classic-content h2:hover{
+    color: #457D4C;
+    transition: 0.2s;
+}
+.classic .container{
+    width: 1136px;
+}
+
+/* classic blog end */	
+a button {
+    background-color: #4D8B55;
+    padding: 8px 16px 9px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 20px;
+    transition: 0.5s;
+    font-size: 12px;
+}
+
+a button:hover {
+    background-color: #000;
+}
+
+.packaging {
+    background-color: #efece5;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    padding: 12px 30px 15px;
+    width: 1135px;
+}
+
+.package-line span {
+    width: 1075px;
+    margin-left: 0;
+}
+
+.quote {
+    border: 3px solid #4D8B55;
+    padding: 30px 30px 0px;
+    margin: 0px 0px 30px;
+}
+
